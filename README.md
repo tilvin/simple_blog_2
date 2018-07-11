@@ -1,4 +1,3 @@
-
 # Code challenge
 
 ## Description
@@ -15,7 +14,7 @@ As a code challenge, let's consider the following **RoR** apps:
 
 * We’d like you to provide a small implementation of one or more parts (no matter how small) of the apps described above, the choice is yours, the better you can in your available time. 
 * Automated testing for the implemented parts is a **strict requirement**.
-* When done create a MR to this repository containing the sources and the run instructions.
+* When done, please create a branch inside the repository (you should have the permission to do so) and make a MR (Merge request/Pull request) to master with the install and run instructions.
 
 Fell free to use whatever gem you want, no need to reinvent the wheel 🙂
 
