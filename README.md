@@ -15,7 +15,7 @@ As a code challenge, let's consider the following **RoR** apps:
 * We’d like you to provide an implementation of the apps described above, the code should be production-ready. 
 * Automated testing for the implemented parts is a **strict requirement**.
 * When done, please create a branch inside the repository (you should have the permission to do so) and make a MR (Merge request/Pull request) to master branch setting as target project your project (the forked one).
-* Complete the MR with a `RUN_INSTRUCTIONS.md` file that contains **all** the required steps to run the application/s.
+* Complete the MR with a `RUN_INSTRUCTIONS.md` file that contains **all** the required steps to run the applications.
 * The MR will be subject to a code review process which will require your interaction.
 
 Fell free to use whatever gem you want, no need to reinvent the wheel 🙂
