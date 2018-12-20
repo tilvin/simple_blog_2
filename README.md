@@ -4,11 +4,11 @@
 
 As a code challenge, let's consider the following **RoR** apps:
 
-1. The first one (**app1**) is a basic blogging application that lets a user *register* and then write comments. Each user can *write*, *read*, *update*, *list* and *destroy* **its own comments** (including texts, images or whatever);
-2. **app1**: the user is able to *filter* comments by their `description`;
+1. The first one (**app1**) is a basic blogging application that lets a user *register* and then write posts. Each user can *write*, *read*, *update*, *list* and *destroy* **its own posts** (including texts, images or whatever);
+2. **app1**: the user is able to *filter* posts by their `description`;
 3. **app1**: exposes the user authentication via an `API`;
-4. The second app (**app2**) shares the login w/ the first app, via the aforementioned `API` (that is, an user A registered to **app1** can also log into **app2**; user data remains in **app1**’s DB).
-5. **app2** just shows comments by any registered user to logged in users.
+4. The second app (**app2**) shares the login w/ the first app, via the a forementioned `API` (that is, an user A registered to **app1** can also log into **app2**; user data remains in **app1**’s DB).
+5. **app2** just shows posts by any registered user to logged in users.
 
 ## Instruction for the candidate
 
