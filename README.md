@@ -17,7 +17,10 @@ As a code challenge, let's consider the following **RoR** apps:
 * When done, please create a branch inside the repository (you should have the permission to do so) and make a MR (Merge request/Pull request) to master branch setting as target project your project (the forked one).
 * Complete the MR with a `RUN_INSTRUCTIONS.md` file that contains **all** the required steps to run the applications.
 * The MR will be subject to a code review process which will require your interaction.
+* Please note that we'll take into account every little detail in your code (also the quality of git logs will be part of the evaluation process).
 
 Fell free to use whatever gem you want, no need to reinvent the wheel 🙂
 
 If something is not clear, please ask.
+
+**If this test goes well you'll be subject to the last techincal interview with a member of our lead team.**
