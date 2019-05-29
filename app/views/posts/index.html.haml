@@ -1,0 +1,12 @@
+%h2
+  Your posts
+
+- @posts.each do |post|
+  %p
+    = link_to (image_tag post['attributes']['cover_image']), post_path(id: post['id'])
+  %p
+    %b
+      = link_to post['attributes']['title'], post_path(id: post['id'])
+  %small
+    %em
+      = post['attributes']['created_at']

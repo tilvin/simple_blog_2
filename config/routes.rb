@@ -1,3 +1,9 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  resources :sessions, only: [:new, :create, :destroy]
+  post 'sign_out', to: 'sessions#sign_out'
+
+  resources :posts, only: [:index, :show]
+
+  root 'sessions#new'
 end

@@ -1,0 +1,9 @@
+= form_for :session, url: sessions_path(method: :create) do |f|
+  .div
+    = f.label 'Email'
+    = f.text_field :email, autofocus: true, placeholder: "email"
+  .div
+    = f.label 'Password'
+    = f.password_field :password, autocomplete: "off", placeholder: "пароль"
+  .div
+    = f.submit "Log In"

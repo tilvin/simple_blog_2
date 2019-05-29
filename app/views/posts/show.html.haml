@@ -1,0 +1,12 @@
+%p
+  = image_tag @post['attributes']['cover_image']
+%p
+  %b
+    = @post['attributes']['title']
+%small
+  %em
+    = @post['attributes']['created_at']
+%p
+  = @post['attributes']['description']
+%p
+  = link_to 'Back', posts_path
