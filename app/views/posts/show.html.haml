@@ -1,5 +1,6 @@
-%p
-  = image_tag @post['attributes']['cover_image']
+- if @post.dig('attributes', 'cover_image')
+  %p
+    = image_tag @post['attributes']['cover_image']
 %p
   %b
     = @post['attributes']['title']
