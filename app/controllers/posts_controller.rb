@@ -4,12 +4,12 @@ class PostsController < ApplicationController
 
   def index
     response = HTTParty.get("#{ENV['BLOG_1_URL']}/api/v1/posts", headers: auth_token)
-    @posts = response['data']
+    @posts = JSON.parse(response.to_s)['data']
   end
 
   def show
     response = HTTParty.get("#{ENV['BLOG_1_URL']}/api/v1/posts/#{params[:id]}", headers: auth_token)
-    @post = response['data']
+    @post = JSON.parse(response.to_s)['data']
   end
 
 end
